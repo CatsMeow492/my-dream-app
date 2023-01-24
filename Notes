@@ -1,0 +1,4 @@
+In order to use two-way data binding with forms in Angular, you need to import the FormsModule from the @angular/forms package and add it to the imports array of your @NgModule decorator.
+
+```import { FormsModule } from '@angular/forms';```
+```<input type="text" [(ngModel)]="name">```
