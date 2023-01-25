@@ -2,3 +2,6 @@ In order to use two-way data binding with forms in Angular, you need to import t
 
 ```import { FormsModule } from '@angular/forms';```
 ```<input type="text" [(ngModel)]="name">```
+
+Localbootstrapinstall
+`npm install --save bootstrap@3`
