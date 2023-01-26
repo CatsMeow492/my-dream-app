@@ -5,3 +5,6 @@ In order to use two-way data binding with forms in Angular, you need to import t
 
 Localbootstrapinstall
 `npm install --save bootstrap@3`
+
+Generate a new component
+ng g c servers
