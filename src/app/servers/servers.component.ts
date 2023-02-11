@@ -4,7 +4,11 @@ import { Component, OnInit } from '@angular/core';
   selector: 'app-servers',
   // template: '<app-server></app-server>',
   templateUrl: './servers.component.html',
-
+  styles: [`
+    h3 {
+      color: dodgerblue;
+    }
+  `]
 })
 export class ServersComponent implements OnInit {
   allowNewServer = false;
