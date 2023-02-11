@@ -2,6 +2,11 @@
 <input
   type="text"
   class="form-control"
+  [(ngModel)]="username">
+<p>{{ username }}</p>
+<input
+  type="text"
+  class="form-control"
   (input)="onUpdateServerName($event)">
   <input
   type="text"
